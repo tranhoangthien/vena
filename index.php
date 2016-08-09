@@ -13,5 +13,9 @@
  */
 define('WP_USE_THEMES', true);
 
+define('WP_HOME','http://local.vena.com');
+
+define('WP_SITEURL','http://local.vena.com');
+
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
